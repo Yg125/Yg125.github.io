@@ -8,7 +8,7 @@
       <link href="/2022/06/30/xv6_lab1/"/>
       <url>/2022/06/30/xv6_lab1/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="实验一">实验一</h1><h2 id="sleep">Sleep</h2><p>这个任务简单，只需要参考其他指令的实现方式比如<code>rm.c</code>，就可以写出来<br>系统调用函数在<code>user/user.h</code>中，完成sleep.c之后需要将其加入大<code>Makefile</code>中 <code>$U/_sleep\</code></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;kernel/types.h&quot;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;user/user.h&quot;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> <span class="type">const</span> *argv[])</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="keyword">if</span> (argc != <span class="number">2</span>) &#123; <span class="comment">//参数错误</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Sleep needs one argument!\n&quot;</span>);</span><br><span class="line">    <span class="built_in">exit</span>(<span class="number">1</span>);</span><br><span class="line">  &#125;</span><br><span class="line">    <span class="type">int</span> ticks=atoi(argv[<span class="number">1</span>]);<span class="comment">//将字符串参数转为整数</span></span><br><span class="line">    sleep(ticks);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;nothing happens for a little while\n&quot;</span>);</span><br><span class="line">    <span class="built_in">exit</span>(<span class="number">0</span>);<span class="comment">//确保进程退出</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -39,7 +39,7 @@
       <link href="/2022/06/25/xv6_lab_index/"/>
       <url>/2022/06/25/xv6_lab_index/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://yg125.github.io/2022/06/30/xv6_lab1/">util</a></p>]]></content>
+        <content type="html"><![CDATA[<p>xv6实验中不像平时的C语言程序，走到<code>&#125;</code>就结束了，xv6中进程必须显式地调用<code>exit</code>来结束，否则进程就会一直在那里<br>使用<code>make qemu</code>来编译程序，每一次实验都会有自动评测脚本，可以使用<code>make grade</code>来测试所有任务得分，也可以使用<code>./grade-lab-util xxx</code>来评测某个任务是否完成</p><hr><p><a href="https://yg125.github.io/2022/06/30/xv6_lab1/">util</a></p>]]></content>
       
       
       <categories>
