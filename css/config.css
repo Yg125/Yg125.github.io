@@ -1,0 +1,27 @@
+/* 首页文章栏背景透明 */
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+/* 侧边栏透明 */
+#aside-content .card-widget {
+    background: var(--light_bg_color)
+}
+
+#web_bg{
+    background-image: url("https://d29fhpw069ctt2.cloudfront.net/photo/35464/preview/madebyvadim_npreviews_a576.jpg");
+}
+/* 文章页背景 */
+.layout>div:first-child:not(.recent-posts) {
+    background: rgba(255,255,255,.8);
+}
+
+/* 首页文章栏背景透明 */
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: rgba(255,255,255,.5);
+}
+
+/* 侧边栏透明 */
+#aside-content .card-widget {
+    background: rgba(255,255,255,.5);
+}
