@@ -29,16 +29,16 @@
     
     
     <entry>
-      <title>CSAPP实验</title>
-      <link href="/2022/06/25/csapp_lab/"/>
-      <url>/2022/06/25/csapp_lab/</url>
+      <title>xv6实验</title>
+      <link href="/2022/06/25/xv6_lab_index/"/>
+      <url>/2022/06/25/xv6_lab_index/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> CSAPP </category>
+          <category> OS </category>
           
       </categories>
       
@@ -48,12 +48,6 @@
             <tag> 汇编 </tag>
             
             <tag> 操作系统 </tag>
-            
-            <tag> 计算机组成原理 </tag>
-            
-            <tag> 计算机网络 </tag>
-            
-            <tag> 编译原理 </tag>
             
             <tag> C语言 </tag>
             
