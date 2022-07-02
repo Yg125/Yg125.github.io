@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>处理器体系结构</title>
+      <link href="/2022/07/02/csapp_4/"/>
+      <url>/2022/07/02/csapp_4/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> CSAPP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 汇编 </tag>
+            
+            <tag> 操作系统 </tag>
+            
+            <tag> 计算机组成原理 </tag>
+            
+            <tag> 计算机网络 </tag>
+            
+            <tag> 编译原理 </tag>
+            
+            <tag> C语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>xv6实验1</title>
       <link href="/2022/06/30/xv6_lab1/"/>
       <url>/2022/06/30/xv6_lab1/</url>
