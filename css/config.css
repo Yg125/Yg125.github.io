@@ -6,15 +6,15 @@
     background: rgba(255,255,255,.8);
 }
 
-/* 首页文章栏背景透明
+/* 首页文章栏背景透明 */
 #recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
     background: rgba(255,255,255,.5);
 }
 
-侧边栏透明
+/* 侧边栏透明 */
 #aside-content .card-widget {
     background: rgba(255,255,255,.5);
-} */
+} 
 
 /* 文章页H1-H6图标样式效果 */
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
